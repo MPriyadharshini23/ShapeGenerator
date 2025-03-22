@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+body{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    background-color: rgb(226, 198, 226);
+   
+   
+}
+.blur{
+    backdrop-filter: blur(20px);
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    border-radius: 20px;
+}
+#button{
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+}
+button:hover{
+    background-color: rgb(121, 121, 198);
+
+}
+#number{
+    margin: 20px;
+    width: 100px;
+    height: 35px;
+}
+#input{
+    height: 350px;
+    color: white;
+    background-image: url(https://img.freepik.com/free-vector/purple-triangle-background_23-2148396608.jpg);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(75, 1, 75);
+    
+    
+}
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(75, 1, 75);
+}
+.rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    border-radius: 50% 50% 0% 0%;
+    transform: rotate(-45deg);
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(75, 1, 75) ;
+
+}
+#box{
+    height: 360px;
+    background-color: rgb(176, 117, 232);
+    margin-top: 5px ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
